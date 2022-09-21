@@ -1,0 +1,98 @@
+.about1{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.type{
+ width: 60%;
+    margin-top: 100px;
+}
+.type1{
+    display: flex;
+   
+   
+}
+.about2{
+    margin-top: 150px;
+    display: flex;
+   
+   
+}
+.garcons{
+    width: 30%;
+}
+.aboutb1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anas{
+    justify-content:space-evenly;  
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content:space-around;
+    align-items: center;
+}
+.anas h3{
+    color:#532b99;
+}
+.moraba3{
+    width: 300px;   
+    
+}
+.drt{
+    margin-left: 40px;
+}
+.avis{
+   
+    width: 100%;
+}
+.parents {
+   margin-top: 1px  !important;
+   width: 100%;
+   height: 500px;
+;
+}
+
+
+/*.carousel .slide {
+  
+    min-width: 100% !important;
+  top: 2px !important;
+
+    position: relative;
+    text-align: center
+}
+.carousel img {
+    width: 15% !important;
+    display: inline-block;
+    pointer-events: none;
+}*/
+
+
+ .parentImage {
+    
+   position: absolute;
+  border-radius: 50%;
+  height:120px;
+  width: 30px;
+  margin-top: -58px;
+  margin-left: -81px !important;
+}
+.parole{
+    height: 200px;
+   width: 60%;
+   margin-left: 280px;
+   margin-top: 300px;
+   border: 0.1rem solid black;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+}
+.parole p{
+    margin-top: 100px;
+}

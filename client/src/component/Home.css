@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+.partie2{
+    margin-top: 50px;
+   background-color: #f8f8f8;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-around;
+   
+}
+.carré{
+   
+    width: 300px;
+    height: 150px;
+}
+.bleu{
+    margin-top: 100px;
+    height: 500px;
+    background-color:#624dd6 ;
+    background-image: url("https://kidsheaven.wpengine.com/wp-content/uploads/2016/11/doodle_bg2.png?id=11214");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bleu img{
+    position: absolute;
+    margin-top: -210px;
+}
+.bleu h1{
+   
+    color: white;
+}
+.bleu-1{
+    margin-top: 100px;  
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+  .a{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+   
+}
+.a:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.a:nth-child(1){
+    filter: hue-rotate(270deg);
+}
+
+.a span{
+    position: absolute;
+    display: block;
+}
+.a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#03e9f4);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+ .a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+} 
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+.a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+.activity{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 0 auto;
+    margin-top: 50px;
+   
+   
+}
+.cartt{
+    width: 20%;
+    height:0 auto;
+    margin-left: 15px;
+    justify-content:center;
+    border:  0.1rem solid #6f726d;
+    
+}
+.cartt img{
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.cartt1:hover{
+    
+    border:  0.1rem solid #ff3467;
+}
+.cartt2:hover{
+    border:  0.1rem solid #78d6fe; 
+}
+.cartt3:hover{
+    border:  0.1rem solid #94dd2c; 
+}
+.cartt4:hover{
+    border:  0.1rem solid #ffd338; 
+}
+
+
+
+
+.carousel-item{
+    position:relative;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 180px;
+    right: 0 px;
+    width:100%;
+    text-align:center;
+   margin-left: 350px;
+    padding-top: 5px;
+    color: #fff;
+  }
+

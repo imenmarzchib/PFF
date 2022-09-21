@@ -1,0 +1,43 @@
+.navv{
+    display: flex;
+   height: 60px;
+    width: 100%;
+   
+   
+    justify-content: space-around;
+    align-items: center !important;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+transition: 1s;
+}
+.nav2{
+    background-color: white;
+    transition: 1s;
+} 
+.liste{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 50%;
+    margin-right: 3%;
+}
+.liste h5{
+    font-size: medium;
+}
+.icons{
+ 
+    width: 60%;
+    
+    font-size:30px;
+  
+}
+.ico{
+  width: 106px;
+    display: flex;
+    
+}
+.log img{
+ width: 200px;
+}
+
